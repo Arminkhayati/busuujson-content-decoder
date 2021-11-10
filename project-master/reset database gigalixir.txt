@@ -1,0 +1,7 @@
+ gigalixir ps:remote_console
+
+Ecto.Migrator.run(Content.Repo, Application.app_dir(:content, "priv/repo/migrations"), :down, [all: true])
+
+
+Ecto.Migrator.run(Content.Repo, Application.app_dir(:content, "priv/repo/migrations"), :up, [all: true])
+

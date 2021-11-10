@@ -1,0 +1,3 @@
+truncate Translations cascade;
+TRUNCATE lessons CASCADE;
+TRUNCATE units CASCADE;
