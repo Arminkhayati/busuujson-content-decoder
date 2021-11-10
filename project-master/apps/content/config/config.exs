@@ -15,7 +15,7 @@ use Mix.Config
 config :content, Content.Repo,
   database: "content_repo",
   username: "armin",
-  password: "29399",
+  password: "1234",
   hostname: "localhost"
 
 
